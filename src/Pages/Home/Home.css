@@ -1,0 +1,30 @@
+.home {
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.feed_contain {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.feed_contain img {
+  width: 20rem;
+  border-radius: 10px;
+}
+.feed_contain .img_contain {
+  /* background-color: white;
+  border-radius: 20px; */
+  position: relative;
+}
+
+.feed_contain .img_contain .save_logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+}
